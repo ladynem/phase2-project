@@ -1,4 +1,6 @@
-# CORE DELIVERABLES
+# PROJECT REQUIREMENTS
+
+[View Full requirements here:](https://docs.google.com/document/d/1jUnhHhu10YOOvNYHwDVz39ryrhLCUyMXrULazI77llo/edit#heading=h.himt9pu2ppf0)
 
 [ ] Build a React single page applicaiton from scratch.
 

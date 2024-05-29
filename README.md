@@ -23,9 +23,13 @@ Draft
 
 ## ROADMAP
 Future releases will include:
+- Add new student form
+- Other dropdown to include text explanation
 - Auto-generated charts with options to print and e-mail
-- FERPA compliant security features
+- FERPA compliant security sign-in
 - Parent and student viewing options
+- Customize theme by school colors
+- Student, parent, and adminitrator log-in
 
 ## CONTRIBUTING
 This project is not open to contributions.
