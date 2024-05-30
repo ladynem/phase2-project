@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Search from "./Search";
+import Search from "../components/Search";
 
 function StudentSummary() {
     const [students, setStudents] = useState([])
@@ -31,8 +31,9 @@ function StudentSummary() {
 
 export default StudentSummary;
 
-// alphabetize filter
-// search by ID number
-// click to expand and view full report
-// include auto-generated chart in report
-// print or email report
+// FUTURE FEATURES:
+    // alphabetize filter
+    // search by ID number
+    // click to expand and view full report
+    // include auto-generated chart in report
+    // print or email report

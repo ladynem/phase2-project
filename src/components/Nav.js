@@ -1,13 +1,23 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+// import css
 
 function Nav() {
     return (
-      <>
-      <button>Hall Pass</button> 
-      <button>Student Summary</button>
-      <button>About</button>
-      </>
-    );
+        <>
+            <header>
+                <h1>⏰ HallWize</h1>
+            </header>
+            <nav>
+                <NavLink to="/">Home</NavLink> 
+                {/* Add className="" after to for styling */}
+                
+                <NavLink to="/about">About</NavLink>
+               
+                <NavLink to="/studentsummary">Student Summary</NavLink>
+            </nav>
+        </>
+    )
   }
   
-  export default Nav;
+  export default Nav

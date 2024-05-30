@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Form() {
+    const [formId, setformId] = useState("")
+    const [formType, setFormType] = useState("")
+    
   return (
     <div>
         <h3>Enter Your Information</h3>
@@ -11,12 +14,12 @@ function Form() {
             name="studentId"
             // min="7"
             // max="7"
-            value={null} 
-            onChange={null}
+            value={formId} 
+            onChange={(e) => setformId(e.target.value)}
         />
         <br /><br /> 
-        {/* How do I do this in CSS instead? */}
-        <select>
+        {/* How do I do this break in CSS instead? */}
+        <select onChange={(e) => setFormType(e.target.value)}>
             <option value="">Choose One</option>
             <option value="Restroom">Restroom</option>
             <option value="Counselor">Counselor</option>
