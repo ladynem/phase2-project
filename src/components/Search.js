@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function Search({search, setSearch}) {
 
@@ -16,4 +16,4 @@ function Search({search, setSearch}) {
   );
 }
 
-export default Search;
+export default Search

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState} from "react"
 
 function Form() {
     const [formId, setformId] = useState("")
@@ -34,4 +34,4 @@ function Form() {
   )
 }
 
-export default Form;
+export default Form

@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from "react"
+import { NavLink } from "react-router-dom"
 // import css
 
 function Nav() {
@@ -11,10 +11,11 @@ function Nav() {
             <nav>
                 <NavLink to="/">Home</NavLink> 
                 {/* Add className="" after to for styling */}
-                
-                <NavLink to="/about">About</NavLink>
-               
+
                 <NavLink to="/studentsummary">Student Summary</NavLink>
+
+                <NavLink to="/about">About</NavLink>
+                
             </nav>
         </>
     )

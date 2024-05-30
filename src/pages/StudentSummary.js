@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from "react";
-import Search from "../components/Search";
+import React, {useEffect, useState} from "react"
+import Search from "../components/Search"
+import Nav from "../components/Nav"
 
 function StudentSummary() {
     const [students, setStudents] = useState([])
@@ -23,17 +24,13 @@ function StudentSummary() {
 
     return (
     <div>
+        <header>
+            <Nav />
+        </header>
         <Search search={search} setSearch={setSearch}/>
         {studentList}
     </div>
     )
 }
 
-export default StudentSummary;
-
-// FUTURE FEATURES:
-    // alphabetize filter
-    // search by ID number
-    // click to expand and view full report
-    // include auto-generated chart in report
-    // print or email report
+export default StudentSummary
