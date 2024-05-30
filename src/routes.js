@@ -18,12 +18,7 @@ const routes = [
       path: "/studentsummary",
       element: <StudentSummary />,
       errorElement: <ErrorPage />
-    },
-    // {
-    //   path: "/profile/:id",
-    //   element: <UserProfile />,
-    //   errorElement: <ErrorPage />
-    // }
+    }
   ];
   
   export default routes;

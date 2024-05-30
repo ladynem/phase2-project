@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 
-function Form({ updateOutStudents }) {
+function Form({ newOutStudents }) {
     const [formName, setFormName] = useState("")
     const [formLocation, setFormLocation] = useState("")
 
@@ -19,7 +19,7 @@ function Form({ updateOutStudents }) {
             })
         })
        .then(res => res.json())
-       .then(data => updateOutStudents(data) ) 
+       .then(data => newOutStudents(data)) 
 
         setFormName("")
         setFormLocation("")

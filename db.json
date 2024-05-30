@@ -264,16 +264,6 @@
       "name": "Arya Stark",
       "studentId": 1000017,
       "location": "Assistant Principal"
-    },
-    {
-      "id": "0fe9",
-      "name": "Casey Johnson",
-      "location": "Counselor"
-    },
-    {
-      "id": "60f9",
-      "name": "Lady Nem Johnson",
-      "location": "Other"
     }
   ]
 }

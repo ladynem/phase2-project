@@ -10,10 +10,10 @@ function Home() {
         fetch("http://localhost:3000/outOfClass")
        .then(res => res.json())
        .then(data => setOutStudents(data))
-    }, [])
+    }, [outStudents])
 
-  const updateOutStudents = (outStudent) => {
-    setOutStudents([...outStudents, outStudent])
+  const newOutStudents = (newOutStudent) => {
+    setOutStudents([...outStudents, newOutStudent])
   }
 
   return (
@@ -21,8 +21,8 @@ function Home() {
       <header>
         <Nav />
       </header>
-      <Form updateOutStudents={updateOutStudents}/>
-      <OutOfClass outStudents={outStudents}/>
+      <Form newOutStudents={newOutStudents}/>
+      <OutOfClass outStudents={outStudents} />
     </div>
   );
 }
