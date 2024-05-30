@@ -12,11 +12,8 @@ function Nav() {
             <nav>
                 <NavLink to="/">Home</NavLink> 
                 {/* Add className="" after to for styling */}
-
                 <NavLink to="/studentsummary">Student Summary</NavLink>
-
-                <NavLink to="/about">About</NavLink>
-                
+                <NavLink to="/about">About</NavLink> 
             </nav>
         </>
     )
