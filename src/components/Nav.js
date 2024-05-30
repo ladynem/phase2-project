@@ -1,6 +1,7 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 // import css
+// Why is Nav.js greyed out in components folder?
 
 function Nav() {
     return (

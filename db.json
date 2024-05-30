@@ -245,5 +245,35 @@
       "timeOutOfClass": 43,
       "inClass": true
     }
+  ],
+  "outOfClass": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "studentId": 1000001,
+      "location": "Restroom"
+    },
+    {
+      "id": 2,
+      "name": "Arthur Dent",
+      "studentId": 1000022,
+      "location": "Nurse"
+    },
+    {
+      "id": 3,
+      "name": "Arya Stark",
+      "studentId": 1000017,
+      "location": "Assistant Principal"
+    },
+    {
+      "id": "0fe9",
+      "name": "Casey Johnson",
+      "location": "Counselor"
+    },
+    {
+      "id": "60f9",
+      "name": "Lady Nem Johnson",
+      "location": "Other"
+    }
   ]
 }

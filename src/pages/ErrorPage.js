@@ -1,9 +1,9 @@
-import Nav from "../components/Nav";
-import { useRouteError } from "react-router-dom";
+import Nav from "../components/Nav"
+import { useRouteError } from "react-router-dom"
 
 function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
+  const error = useRouteError()
+  console.error(error)
 
   return (
     <>
@@ -14,7 +14,7 @@ function ErrorPage() {
         <h1>Whoops! Something went wrong!</h1>
       </main>
     </>
-  );
+  )
 }
 
-export default ErrorPage;
+export default ErrorPage
