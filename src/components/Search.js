@@ -1,6 +1,6 @@
 import React from "react"
 
-function Search({search, setSearch}) {
+function Search({ search, setSearch }) {
 
   return (
     <div className="searchbar">

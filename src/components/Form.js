@@ -20,6 +20,7 @@ function Form({ newOutStudents }) {
         })
        .then(res => res.json())
        .then(data => newOutStudents(data)) 
+       .catch(error => console.error(error))
 
         setFormName("")
         setFormLocation("")
@@ -37,7 +38,7 @@ function Form({ newOutStudents }) {
             onChange={(e) => setFormName(e.target.value)}
         />
         <br /><br /> 
-        {/* How do I create breaks in CSS instead? Is this best practice? */}
+        {/* Are breaks like this best practice? Is there a better way? */}
         <select value={formLocation} onChange={(e) => setFormLocation(e.target.value)}>
             <option value="">Choose One Location</option>
             <option value="Restroom">Restroom</option>

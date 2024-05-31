@@ -10,7 +10,9 @@ function Home() {
         fetch("http://localhost:3000/outOfClass")
        .then(res => res.json())
        .then(data => setOutStudents(data))
+       .catch(error => console.error(error))
     }, [outStudents])
+    // is it best practice use DA to re-render page using DA anytime a db.json file changes from a DELETE request?
 
   const newOutStudents = (newOutStudent) => {
     setOutStudents([...outStudents, newOutStudent])

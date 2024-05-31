@@ -264,6 +264,11 @@
       "name": "Arya Stark",
       "studentId": 1000017,
       "location": "Assistant Principal"
+    },
+    {
+      "id": "06f0",
+      "name": "Casey",
+      "location": "Counselor"
     }
   ]
 }

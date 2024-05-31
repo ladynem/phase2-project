@@ -1,6 +1,6 @@
 import React from "react"
 
-function OutOfClass({ outStudents}) {
+function OutOfClass({ outStudents }) {
 
     const outStudentsList = outStudents.map((outStudent) => {
         return (

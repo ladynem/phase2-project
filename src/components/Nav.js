@@ -11,7 +11,7 @@ function Nav() {
             </header>
             <nav>
                 <NavLink to="/">Home</NavLink> 
-                {/* Add className="" after to for styling */}
+                {/* Add className="" for styling */}
                 <NavLink to="/studentsummary">Student Summary</NavLink>
                 <NavLink to="/about">About</NavLink> 
             </nav>
