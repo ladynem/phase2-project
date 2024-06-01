@@ -1,245 +1,245 @@
 {
   "students": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Harry Potter",
       "studentId": 1000001,
       "timeOutOfClass": 11,
       "inClass": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Sherlock Holmes",
       "studentId": 1000002,
       "timeOutOfClass": 221,
       "inClass": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Elizabeth Bennet",
       "studentId": 1000003,
       "timeOutOfClass": 14,
       "inClass": true
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Atticus Finch",
       "studentId": 1000004,
       "timeOutOfClass": 38,
       "inClass": true
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Huckleberry Finn",
       "studentId": 1000005,
       "timeOutOfClass": 102,
       "inClass": true
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Frodo Baggins",
       "studentId": 1000006,
       "timeOutOfClass": 36,
       "inClass": true
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Bilbo Baggins",
       "studentId": 1000007,
       "timeOutOfClass": 104,
       "inClass": true
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Luna Lovegood",
       "studentId": 1000008,
       "timeOutOfClass": 58,
       "inClass": true
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Hermione Granger",
       "studentId": 1000009,
       "timeOutOfClass": 45,
       "inClass": true
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Fitzwilliam Darcy",
       "studentId": 1000010,
       "timeOutOfClass": 15,
       "inClass": true
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Ebenezer Scrooge",
       "studentId": 1000011,
       "timeOutOfClass": 25,
       "inClass": true
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Percy Jackson",
       "studentId": 1000012,
       "timeOutOfClass": 21,
       "inClass": true
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Katniss Everdeen",
       "studentId": 1000013,
       "timeOutOfClass": 34,
       "inClass": true
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Bilbo Baggins",
       "studentId": 1000014,
       "timeOutOfClass": 42,
       "inClass": true
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Jane Eyre",
       "studentId": 1000015,
       "timeOutOfClass": 32,
       "inClass": true
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Holden Caulfield",
       "studentId": 1000016,
       "timeOutOfClass": 23,
       "inClass": true
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Arya Stark",
       "studentId": 1000017,
       "timeOutOfClass": 29,
       "inClass": true
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Tom Sawyer",
       "studentId": 1000018,
       "timeOutOfClass": 15,
       "inClass": true
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Zaphod Beeblebrox",
       "studentId": 1000019,
       "timeOutOfClass": 42,
       "inClass": true
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Jo March",
       "studentId": 1000020,
       "timeOutOfClass": 5,
       "inClass": true
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Samwise Gamgee",
       "studentId": 1000021,
       "timeOutOfClass": 11,
       "inClass": true
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Arthur Dent",
       "studentId": 1000022,
       "timeOutOfClass": 20,
       "inClass": true
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Scout Finch",
       "studentId": 1000023,
       "timeOutOfClass": 36,
       "inClass": true
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Scarlett O'Hara",
       "studentId": 1000024,
       "timeOutOfClass": 23,
       "inClass": true
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Paul Atreides",
       "studentId": 1000025,
       "timeOutOfClass": 30,
       "inClass": true
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Alice Liddell",
       "studentId": 1000026,
       "timeOutOfClass": 15,
       "inClass": true
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Jay Gatsby",
       "studentId": 1000027,
       "timeOutOfClass": 48,
       "inClass": true
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Lisbeth Salander",
       "studentId": 1000028,
       "timeOutOfClass": 21,
       "inClass": true
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Ebenezer Scrooge",
       "studentId": 1000029,
       "timeOutOfClass": 43,
       "inClass": true
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Dorian Gray",
       "studentId": 1000030,
       "timeOutOfClass": 38,
       "inClass": true
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Robin Goodfellow",
       "studentId": 1000031,
       "timeOutOfClass": 25,
       "inClass": true
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Peter Quince",
       "studentId": 1000032,
       "timeOutOfClass": 37,
       "inClass": true
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Romeo Montague",
       "studentId": 1000033,
       "timeOutOfClass": 15,
       "inClass": true
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Juliet Capulet",
       "studentId": 1000034,
       "timeOutOfClass": 22,
       "inClass": true
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Tom Joad",
       "studentId": 1000035,
       "timeOutOfClass": 43,
@@ -248,27 +248,21 @@
   ],
   "outOfClass": [
     {
-      "id": 1,
-      "name": "Harry Potter",
-      "studentId": 1000001,
-      "location": "Restroom"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "Arthur Dent",
       "studentId": 1000022,
-      "location": "Nurse"
+      "location": "Counselor"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Arya Stark",
       "studentId": 1000017,
       "location": "Assistant Principal"
     },
     {
-      "id": "06f0",
-      "name": "Casey",
-      "location": "Counselor"
+      "id": "e7ea",
+      "name": "Frodo Baggins",
+      "location": "Nurse"
     }
   ]
 }

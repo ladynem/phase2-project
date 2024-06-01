@@ -1,7 +1,5 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-// import css
-// Why is Nav.js greyed out in components folder?
 
 function Nav() {
     return (
@@ -11,8 +9,9 @@ function Nav() {
             </header>
             <nav>
                 <NavLink to="/">Home</NavLink> 
-                {/* Add className="" for styling */}
+
                 <NavLink to="/studentsummary">Student Summary</NavLink>
+                
                 <NavLink to="/about">About</NavLink> 
             </nav>
         </>

@@ -14,6 +14,6 @@
 
 [✅] Make a GET request: StudentSummary data
 
-[ ] POST request should be a controlled form component and state should be updated using the setState function.
+[✅] POST request should be a controlled form component and state should be updated using the setState function.
 
-[ ] Include some CSS styling.
+[✅] Include some CSS styling.

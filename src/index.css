@@ -2,6 +2,7 @@
   margin: 5px;
   padding: 5px;
   box-sizing: border-box;
+  background-color: #D6EAF8;
 }
 
 body {
@@ -18,12 +19,7 @@ button {
 }
 
 button:hover {
-  background-color: #696969;
-  color: white;
-}
-
-button.primary {
-  color: white;
+  background-color: #6bb1df;
 }
 
 header h1 {
@@ -38,7 +34,7 @@ input {
   border: none;
   font-family: inherit;
   font-size: 1em;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid black;
   transition: all 0.2s;
-  width: 40%;
+  width: 30%;
 }
