@@ -10,7 +10,7 @@ Ensure student safety and accountablity, eliminate error-prone paper trackers, a
 Learn more ADD BLOG POST HERE
 
 ## VISUALS
-ADD NAVIGATION GIF HERE
+Draft: Add gif here
 
 ## INSTALLATION
 Draft

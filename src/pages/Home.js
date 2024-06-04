@@ -11,7 +11,7 @@ function Home() {
        .then(res => res.json())
        .then(data => setOutStudents(data))
        .catch(error => console.error(error))
-    }, [outStudents])
+    }, [])
 
   const newOutStudents = (newOutStudent) => {
     setOutStudents([...outStudents, newOutStudent])
@@ -23,7 +23,7 @@ function Home() {
         <Nav />
       </header>
       <Form newOutStudents={newOutStudents}/>
-      <OutOfClass outStudents={outStudents} />
+      <OutOfClass outStudents={outStudents} setOutStudents={setOutStudents} />
     </div>
   );
 }

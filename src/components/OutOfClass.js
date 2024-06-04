@@ -1,6 +1,6 @@
 import React from "react"
 
-function OutOfClass({ outStudents }) {
+function OutOfClass({ outStudents, setOutStudents }) {
 
     const outStudentsList = outStudents.map((outStudent) => {
         return (
@@ -15,6 +15,10 @@ function OutOfClass({ outStudents }) {
     const handleClick = (id) => {
         fetch(`http://localhost:3000/outOfClass/${id}`, {
           method: "DELETE"
+        })
+        .then((data) => {
+            const updatedStudents = outStudents.filter((student) => student.id !== id)
+            setOutStudents(updatedStudents)
         })
     }
 
